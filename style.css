@@ -1,3 +1,8 @@
+body
+{
+    background-color: green;
+}
+
 main
 {
     display: flex;
@@ -42,5 +47,7 @@ main
     align-items: center;
     border: 3px solid rgb(119, 70, 233);
     border-radius: 15px;
+    width: 30vw;
 }
+
 
