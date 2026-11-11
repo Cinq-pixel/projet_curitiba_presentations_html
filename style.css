@@ -40,14 +40,45 @@ main
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.Img_Monument
+
+
+ .lien_pricipale 
+ {
+
+ }
+
+
+.Img_Parc
 {
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid rgb(119, 70, 233);
-    border-radius: 15px;
     width: 30vw;
+    height: auto;
+    width: 20vw;
+    height: 30vh;
+    border: solid rgb(130, 235, 130);
+    border-radius: 5px;
 }
 
+.Img_ParcStatut
+{
+      width: 30vw;
+    height: auto;
+    width: 20vw;
+    height: 30vh;
+}
 
+.Img_Muse
+{
+       width: 30vw;
+    height: auto;
+    width: 20vw;
+    height: 30vh;
+}
+
+.liens_image
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center;
+    justify-content: space-between;
+}
