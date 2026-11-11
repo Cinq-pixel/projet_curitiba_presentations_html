@@ -20,7 +20,7 @@ main
 
 .Section_1_Index
 {
-    border: rgb(97, 167, 75) solid 5px ;
+    border: rgb(121, 202, 96) solid 7px ;
     border-radius: 7px;
     text-align: center;
     background-color: rgb(223, 223, 62);
@@ -30,7 +30,7 @@ main
 }
 .Section_2_Index
 {
-    border: rgb(97, 167, 75) solid 5px ;
+   border: rgb(121, 202, 96) solid 7px ;
     border-radius: 7px;
     text-align: center;
     background-color: rgb(233, 233, 62);
@@ -43,8 +43,11 @@ main
 
  .lien_pricipale 
  {
-
- }
+    display: flex;
+    border: solid 6px rgb(118, 214, 80);
+    gap: 15px;   
+    border-radius: 8px; 
+}
 
 
 .Img_Parc
@@ -100,6 +103,15 @@ main
     align-items: center ;
     justify-content: center;
     justify-content: space-between;
+    padding-top: 90px ;
+}
+
+.h2_index
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 
