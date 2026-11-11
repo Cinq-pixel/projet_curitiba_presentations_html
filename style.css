@@ -26,8 +26,7 @@ main
     background-color: rgb(223, 223, 62);
     display: flex;
     flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Section_2_Index
 {
@@ -54,25 +53,45 @@ main
     height: auto;
     width: 20vw;
     height: 30vh;
-    border: solid rgb(130, 235, 130);
+    border: 6px solid rgb(130, 235, 130);
     border-radius: 5px;
+}
+.Img_Parc:hover {
+    width: 22vw;
+    height: 35vh;
+    border: 6px solid rgb(48, 88, 48);
 }
 
 .Img_ParcStatut
 {
-      width: 30vw;
+    width: 30vw;
     height: auto;
     width: 20vw;
     height: 30vh;
+    border: 6px solid rgb(130, 235, 130);
+    border-radius: 5px;
 }
+.Img_ParcStatut:hover {
+    width: 22vw;
+    height: 35vh;
+    border: 6px solid rgb(48, 88, 48);
+}
+
 
 .Img_Muse
 {
-       width: 30vw;
-    height: auto;
     width: 20vw;
     height: 30vh;
+    border: 6px solid rgb(130, 235, 130);
+    border-radius: 5px;
 }
+
+.Img_Muse:hover {
+    width: 22vw;
+    height: 35vh;
+    border: 6px solid rgb(48, 88, 48);
+}
+
 
 .liens_image
 {
@@ -82,3 +101,6 @@ main
     justify-content: center;
     justify-content: space-between;
 }
+
+
+
