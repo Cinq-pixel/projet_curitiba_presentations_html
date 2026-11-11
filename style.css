@@ -113,6 +113,14 @@ main
     align-items: center;
     flex-direction: row;
 }
+/*Musé.html*/
 
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
 
 
