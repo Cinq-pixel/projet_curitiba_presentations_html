@@ -1,0 +1,46 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.En_Tete
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section_1_Index
+{
+    border: rgb(97, 167, 75) solid 5px ;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(223, 223, 62);
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.Section_2_Index
+{
+    border: rgb(97, 167, 75) solid 5px ;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(233, 233, 62);
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.Img_Monument
+{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(119, 70, 233);
+    border-radius: 15px;
+}
+
